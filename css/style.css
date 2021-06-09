@@ -4,6 +4,50 @@
     box-sizing: border-box;
 }
 
-h1 {
-    color: red;
+/* common */
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg");
 }
+
+
+/* fine common */
+
+
+/* Header */
+
+#logo {
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+#logo-text {
+    color: white;
+    font-size: 25px;
+}
+
+#header-bottom {
+    margin-top: 20px;
+}
+
+#count {
+    margin-top: 5px;
+    color: white;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+#unread-count {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: orange;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Fine Header */
